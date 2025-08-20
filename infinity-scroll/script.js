@@ -9,8 +9,7 @@ let ready = false;
 
 // Unsplash API.
 const count = 8; // Number of photos to fetch.
-const apiKey = "d0uwtmioxxuBTbo9gP3DpS-DVAHYfoQ8Mf8HASwMRVQ"; // Unsplash API key.
-// const apiKey = "jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek";
+const apiKey = "jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Array to hold the fetched photos.
